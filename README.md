@@ -3,6 +3,10 @@ esoteric programming language that is borderline useful
 
 an implementation of deadfish, but with many more commands
 
+####installing superfish
+
+install lua, download script. make sure lua is part of PATH if you want.
+
 ####old stuff - originally in deadfish
 
 * i - increment current accumulator
@@ -10,7 +14,7 @@ an implementation of deadfish, but with many more commands
 * s - square current accumulator
 * o - output current accumulator
 
-####new stuff
+####new stuff added to superfish
 
 * dual accumulators
   * p - swap values of accumulators
@@ -30,6 +34,7 @@ an implementation of deadfish, but with many more commands
   * dddg
 * \n signifies the end of the program
 * whitespace is ignored
+* file name doesn't matter
 * other than that, there are no rules
 
 ####quirks
