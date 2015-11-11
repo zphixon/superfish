@@ -3,6 +3,8 @@ esoteric programming language that is borderline useful
 
 an implementation of deadfish, but with many more commands
 
+example superfish programs included. tutorial I guess?
+
 ####installing superfish
 
 install lua, download script. make sure lua is part of PATH if you want.
