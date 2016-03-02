@@ -42,33 +42,34 @@ install lua, download script. make sure lua is part of PATH if you want.
 ####quirks
 
 you can't manipulate the value of the second accumulator directly, and the only way to change it is to use p
+
 j changes the current place in the program to the value of the second accumulator, so if you were to write
 
->iissj          o
+    iissj          o
 
 the program would output
 
->16
+    16
 
 output is handled differently for numbers and letters, there is a newline after every number output, and there is not
 for every text output
 
->iissoo
+    iissoo
 
 would output
 
->16  
->16
+    16  
+    16
 
 while
 
->aiiiiiiiisiiiiiiiioriisioiiiiiiiooiiioriiiiiiiiiiiiiiiiiiiiiioiiiiriiiiisddoddddddddoiiioddddddoddddddddorddddsdddoriiiii
+    aiiiiiiiisiiiiiiiioriisioiiiiiiiooiiioriiiiiiiiiiiiiiiiiiiiiioiiiiriiiiisddoddddddddoiiioddddddoddddddddorddddsdddoriiiii
 
 outputs
 
->Hello world!  
->
+    Hello world!  
+    
 
 ####licensing
 
-who cares
+who cares, do what you want
