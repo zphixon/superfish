@@ -34,8 +34,8 @@ install lua, download script. make sure lua is part of PATH if you want.
 * j cannot be the first command, nor can it be fed a negative number
   * jnogood
   * dddg
-* \n signifies the end of the program
-* whitespace is ignored
+* newline signifies the end of the program, allowing anything to be put after
+* whitespace is ignored, but is counted as a character in the program
 * file name doesn't matter
 * other than that, there are no rules
 
@@ -51,8 +51,8 @@ the program would output
 
     16
 
-output is handled differently for numbers and letters, there is a newline after every number output, and there is not
-for every text output
+output is handled differently for numbers and letters; there is a newline after every number output, and there is not
+for every text output. therefore, you would need to output the ASCII value for `\n`, 10
 
     iissoo
 
