@@ -33,7 +33,7 @@ install lua, download script. make sure lua is part of PATH if you want.
   * oioopigopgopgopgopgopgopgopgopgopgopgopgo
 * j cannot be the first command, nor can it be fed a negative number
   * jnogood
-  * dddg
+  * dddj
 * newline signifies the end of the program, allowing anything to be put after
 * whitespace is ignored, but is counted as a character in the program
 * file name doesn't matter
