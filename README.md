@@ -5,18 +5,18 @@ an implementation of deadfish, but with many more commands
 
 example superfish programs included. tutorial I guess?
 
-####installing superfish
+#### installing superfish
 
 install lua, download script. make sure lua is part of PATH if you want.
 
-####old stuff - originally in deadfish
+#### old stuff - originally in deadfish
 
 * i - increment current accumulator
 * d - decrement current accumulator
 * s - square current accumulator
 * o - output current accumulator
 
-####new stuff added to superfish
+#### new stuff added to superfish
 
 * dual accumulators
   * p - swap values of accumulators
@@ -27,7 +27,7 @@ install lua, download script. make sure lua is part of PATH if you want.
 * n - input a numerical value into the current accumulator
 * j - jump to the number character of the other accumulator
 
-####syntax
+#### syntax
 
 * list commands one after the other
   * oioopigopgopgopgopgopgopgopgopgopgopgopgo
@@ -39,7 +39,7 @@ install lua, download script. make sure lua is part of PATH if you want.
 * file name doesn't matter
 * other than that, there are no rules
 
-####quirks
+#### quirks
 
 you can't manipulate the value of the second accumulator directly, and the only way to change it is to use p
 
@@ -70,6 +70,6 @@ outputs
     Hello world!  
      
 
-####licensing
+#### licensing
 
 who cares, do what you want
